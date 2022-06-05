@@ -1,3 +1,4 @@
+import CallbackHookExample from '../CallbackHookExample/CallbackHookExample';
 import EffectHookExample from '../EffectHookExample/EffectHookExample';
 import MemoHookExample from '../MemoHookExample/MemoHookExample';
 import StateHookExample from '../StateHookExample/StateHookExample';
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       {/* <StateHookExample/> */}
       {/* <EffectHookExample/> */}
-      <MemoHookExample/>
+      {/* <MemoHookExample/> */}
+      <CallbackHookExample/>
     </div>
   );
 }
