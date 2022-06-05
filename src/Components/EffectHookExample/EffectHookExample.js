@@ -5,7 +5,7 @@ const EffectHookExample = () => {
     const [data, setData] = useState(null);
 
     useEffect(() => {
-        console.log('render in useEffect');
+        // console.log('render in useEffect');
 
         const url = 'https://jsonplaceholder.typicode.com/todos/';
 
@@ -14,7 +14,7 @@ const EffectHookExample = () => {
             .then(data => setData(data));
     }, []);
 
-    console.log('render', data);
+    // console.log('render', data);
 
     return (
         <div>
